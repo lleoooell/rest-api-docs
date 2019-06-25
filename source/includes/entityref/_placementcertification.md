@@ -9,3 +9,4 @@ This entity represents the required certification for a Placement.
 | certification | To-one association | The certification that is required. | X | |
 | dateAdded | Timestamp | The date on which this record was created in the Bullhorn system. | X | |
 | placement | To-one association | Placement that this PlacementCertification is for. | X | |
+| ownerUserId | To-one association | User that this PlacementCertification is for. | X | |
